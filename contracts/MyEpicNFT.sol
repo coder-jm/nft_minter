@@ -24,7 +24,7 @@ contract MyEpicNFT is ERC721URIStorage {
 
   event NewEpicNFTMinted(address sender, uint256 tokenId);
 
-  constructor() ERC721 ("FunnyMemes", "MEME") {
+  constructor() ERC721 ("ThreeWordMemes", "MEMES") {
     console.log("This is my NFT contract. Woah!");
   }
 
